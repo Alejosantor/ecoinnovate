@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degrade_fondo"
+    tools:context=".Vidrio">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="233dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView_recoPapel"
+        android:layout_width="398dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:text="RECOLECCION DE VIDRIO"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="192dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_recoMensual"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_recoPapel"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@drawable/recovidrio" />
+
+    <TextView
+        android:id="@+id/textView_recoMensual"
+        android:layout_width="398dp"
+        android:layout_height="30dp"
+        android:text="RECOLECCION MENSUAL"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="192dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_tipsRecicle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_recoMensual"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/recomensual" />
+
+    <TextView
+        android:id="@+id/textView_tipsRecicle"
+        android:layout_width="398dp"
+        android:layout_height="30dp"
+        android:text="TIPS DE RECICLAJE"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="192dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/tipsreciclajevidrio" />
+
+    <ImageButton
+        android:id="@+id/btn_atrasVidrio"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/flechaatras"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <ImageButton
+        android:id="@+id/btn_adelanteVidrio"
+        android:layout_width="46dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/flechaadelante"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
